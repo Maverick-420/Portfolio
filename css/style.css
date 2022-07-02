@@ -529,9 +529,10 @@ footer .footer-socials a.social-icon-4:hover{
         display: block;
     }
  
-    header{
+/*     header{
         clip-path:polygon(0 0,100% 0,100% 100%,82% 98%,0 100%);
-    }
+    } */
+ 
     section.about .container{
         flex-direction:column;
     }
