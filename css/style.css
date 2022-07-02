@@ -607,7 +607,7 @@ footer .footer-socials a.social-icon-4:hover{
 }
 
 .open{
-    transform: translateX(-67%);
+    transform: translateX(67%);
     z-index: 1001;
 }
 
