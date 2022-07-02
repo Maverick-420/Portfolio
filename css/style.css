@@ -512,6 +512,11 @@ footer .footer-socials a.social-icon-4:hover{
     .hero{
         flex-direction: column;
     }
+ 
+    .hamberger{
+        display: block;
+    }
+ 
     header{
         clip-path:polygon(0 0,100% 0,100% 100%,82% 98%,0 100%);
     }
