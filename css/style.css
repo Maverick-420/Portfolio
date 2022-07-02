@@ -513,9 +513,12 @@ footer .footer-socials a.social-icon-4:hover{
         flex-direction: column;
     }
     header{
-        clip-path:polygon(0 0,100% 0,100% 100%,65% 96%,0 100%);
+        clip-path:polygon(0 0,100% 0,100% 100%,82% 98%,0 100%);
     }
-    
+    section.about .container{
+        flex-direction:column;
+    }
+   
     .hero .right{
         position: absolute;
         top: 260px;
