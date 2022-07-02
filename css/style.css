@@ -529,9 +529,9 @@ footer .footer-socials a.social-icon-4:hover{
         display: block;
     }
  
-/*     header{
-        clip-path:polygon(0 0,100% 0,100% 100%,82% 98%,0 100%);
-    } */
+    header{
+        clip-path:none;
+    } 
  
     section.about .container{
         flex-direction:column;
@@ -567,7 +567,11 @@ footer .footer-socials a.social-icon-4:hover{
     }
 
     section.blog {
-        clip-path: polygon(0 0,100% 0,100% 100%,64% 96%,0 100%);
+        clip-path:none;
+    }
+ 
+    section.freelance {
+        clip-path:none;
     }
 
     section.contact .card-wrapper {
@@ -603,7 +607,7 @@ footer .footer-socials a.social-icon-4:hover{
 }
 
 .open{
-    transform: translateX(0);
+    transform: translateX(-40%);
     z-index: 1001;
 }
 
