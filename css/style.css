@@ -460,6 +460,18 @@ footer .footer-socials a.social-icon-4:hover{
     color: red;
 }
 
+.hamberger{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 11;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
 @media(max-width:1024px){
     header #main-nav{
         display: none;
@@ -563,18 +575,6 @@ footer .footer-socials a.social-icon-4:hover{
 
 .site-main-wrapper{
     position: relative;
-}
-
-.hamberger{
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    z-index: 11;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    display: none;
 }
 
 .hamverger img{
